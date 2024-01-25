@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: yellow_taxi
+    database: SANYAM_GOEL
+    schema: DB_DWH
+    tables:
+      - name: '"dmn_yellow"'
