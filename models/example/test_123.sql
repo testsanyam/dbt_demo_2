@@ -1,0 +1,1 @@
+SELECT * FROM SANYAM_GOEL.DB_DWH."dmn_yellow"
