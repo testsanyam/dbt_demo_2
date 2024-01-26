@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_yellow_taxi
+  - name: yellow_taxi
     columns:
       - name: '"VendorId"'
         tests:
