@@ -6,3 +6,9 @@ sources:
     schema: DB_DWH
     tables:
       - name: '"dmn_yellow"'
+  
+  - name: green_wave
+    database: PRODUCT
+    schema: SG_DBT_DEMOS
+    tables:
+      - name: '"JOIN_CUSTOMER_ACCOUNTS"'

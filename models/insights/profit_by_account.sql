@@ -1,0 +1,27 @@
+{{
+    config(
+    materialized = 'table'
+)
+}}
+
+SELECT 
+  SUM("PROFIT") AS "sum_PROFIT", 
+  SUM("REVENUE") AS "sum_REVENUE", 
+  "ITEM_NAME", 
+  "ACCOUNT_NAME", 
+  "ORDER_MONTH" 
+FROM (SELECT 
+  "ORDER_DATE", 
+  "QUANTITY", 
+  "ITEM_NAME", 
+  "PRICE", 
+  "COST", 
+  "ACCOUNT_NAME", 
+  (("PRICE" - "COST") * "QUANTITY") AS "PROFIT", 
+  ("PRICE" * "QUANTITY") AS "REVENUE", 
+  TRUNCATE("ORDER_DATE", 'mm') AS "ORDER_MONTH"
+  FROM PRODUCT.SG_DBT_DEMOS.JOIN_CUSTOMER_ACCOUNTS
+  )
+GROUP BY ("ITEM_NAME", 
+          "ACCOUNT_NAME", 
+          "ORDER_MONTH")

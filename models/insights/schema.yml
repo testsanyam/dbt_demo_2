@@ -1,0 +1,23 @@
+
+version: 2
+
+models:
+  - name: profit_by_account
+    description: "Showing profits by account"
+    columns:
+      - name: "ACCOUNT_NAME"
+        description: "Account name"
+        tests:
+          - accepted_values:
+              values:
+                - United Oil & Gas, US
+                - Edge Communications
+                - United Oil & Gas, UK
+                - United Oil & Gas, Singapore
+                - Pyramid Construction Inc.
+                - Express Logistics and Transport
+                - Grand Hotels & Resorts Ltd
+                - University of Tucson
+                - Burlington Textiles Corp of America
+                - GenePoint
+                - Dickenson plc

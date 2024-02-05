@@ -22,3 +22,8 @@ models:
                 - 4
                 - 5
                 - 6
+  
+  - name: green_wave
+    columns:
+      - name:'"Quantity"'
+        tests: 
