@@ -8,7 +8,7 @@ models:
           - not_null
           - accepted_values:
               congif:
-                severity: error
+                severity: 'warn'
               values:
                 - 1
                 - 2
