@@ -11,7 +11,6 @@ models:
                 severity: 'warn'
               values:
                 - 1
-                - 2
                 
 
       - name: '"payment_type"'
