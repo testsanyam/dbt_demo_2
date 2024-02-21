@@ -7,7 +7,7 @@ models:
         tests:
           - not_null
           - accepted_values:
-              congif:
+              config:
                 severity: 'warn'
               values:
                 - 1
