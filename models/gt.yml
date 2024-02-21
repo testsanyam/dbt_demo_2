@@ -9,8 +9,8 @@ models:
           - accepted_values:
               config:
                 severity: 'error'
-                errorif: "<100"
-                warnif: ">1000"
+                errorif: "<10"
+                warnif: ">10"
               values:
                 - 1
                 
