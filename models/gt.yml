@@ -9,6 +9,7 @@ models:
           - accepted_values:
               values:
                 - 1
+                - 2
                 
 
       - name: '"payment_type"'
