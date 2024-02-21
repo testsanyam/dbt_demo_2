@@ -9,6 +9,7 @@ models:
           - accepted_values:
               config:
                 severity: 'error'
+                errorif: ">1"
               values:
                 - 1
                 
