@@ -8,7 +8,7 @@ models:
           - not_null
           - accepted_values:
               config:
-                severity: 'error'
+                severity: error
                 error_if: "<10"
                 warn_if: ">10"
               values:
