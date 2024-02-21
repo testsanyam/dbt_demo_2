@@ -9,8 +9,8 @@ models:
           - accepted_values:
               config:
                 severity: 'error'
-                error_if: ">2995023"
-                warn_if: ">100"
+                error_if: ">100"
+                warn_if: ">10"
 
               values:
                 - 1
