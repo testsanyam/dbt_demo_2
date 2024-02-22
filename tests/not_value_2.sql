@@ -1,4 +1,4 @@
-{{  config(severity = 'warn')}}
+{{  config(severity = 'error')}}
 {{  config(error_if = '<50')}}
 
 
