@@ -1,0 +1,1 @@
+SELECT VendorId FROM {{ ref('yellow_taxi')}}
