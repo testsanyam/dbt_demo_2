@@ -5,6 +5,7 @@ models:
     columns:
       - name: '"VendorId"'
         tests:
+          - unique
           - not_null
           - accepted_values:
               config:
