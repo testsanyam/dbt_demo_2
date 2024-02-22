@@ -12,6 +12,7 @@ models:
                 severity: error
               values:
                 - 1
+                - 2
 
                 
 
@@ -21,6 +22,11 @@ models:
           - accepted_values:
               values:
                 - 1
+                - 2
+                - 3
+                - 4
+                - 5
+                - 6
 
                 
   
