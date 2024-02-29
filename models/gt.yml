@@ -10,7 +10,7 @@ models:
               config:
                 severity: error
               values:
-                - 1
+
     
 
                 
